@@ -2,11 +2,11 @@
 <html>
 <head>
   <title>www.PMR.com</title>
+  <!-- Google Fonts: Pacifico (similar script style) -->
+  <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
   <style>
     body {
-      background: linear-gradient(to right, #67E8F9, #FFEDD5, #A7F3D0); /* Colorful gradient */
-      color: #22223B;
-      font-family: 'Segoe UI', Verdana, sans-serif;
+      background: linear-gradient(to right, #67E8F9, #FFEDD5, #A7F3D0);
       margin: 0;
       padding: 0;
     }
@@ -14,27 +14,41 @@
       text-align: center;
       margin-top: 50px;
     }
-    h1 {
+    .title {
+      font-family: 'Pacifico', cursive;
       font-size: 3em;
-      color: #06B6D4;
+      color: #EEC7B1;
+      text-shadow: 2px 2px #251940;
       margin-bottom: 20px;
-      text-shadow: 2px 2px #FDE68A;
     }
-    p {
-      font-size: 1.5em;
-      color: #504E34;
-      margin-bottom: 15px;
+    .subtitle {
+      font-size: 1.2em;
+      color: #6D597A;
+      margin-bottom: 25px;
     }
-    .images {
-      margin-top: 30px;
-    }
-    img, .gif {
-      border-radius: 18px;
-      box-shadow: 0 4px 16px #C2E9FB;
-      margin: 20px;
+    .gif {
+      margin-top: 20px;
       width: 250px;
-      height: auto;
+      border-radius: 12px;
+      box-shadow: 0 4px 16px #C2E9FB;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
     }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="title">Enthusiastic</div>
+    <div class="subtitle">
+      Any doubts about Maths? 🤓<br>
+      This is the right place! 🤓
+    </div>
+    <!-- Example Dancing GIF from Giphy -->
+    <img class="gif" src="https://media.giphy.com/media/3o6ZsYGg0BQfadtpDq/giphy.gif" alt="Dancing GIF">
+  </div>
+</body>
+</html>    }
   </style>
 </head>
 <body>
